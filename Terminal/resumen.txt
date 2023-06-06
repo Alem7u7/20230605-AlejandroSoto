@@ -1,0 +1,5 @@
+git init / inicializa git en la carpeta actual
+git status /  nos brinda la informacion del estatus de los archivos
+git add / anade los archivos que le indiquemos a git
+git checkout / cambia de rama a la que le indiquemos
+git commit -m  / hacemos un commit de los archivos ya anadidos
