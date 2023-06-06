@@ -1,0 +1,45 @@
+  549  mkdir 20230605-AlejandroSoto
+  550  cd 20230605-AlejandroSoto/
+  551  git init
+  552  git branch -M main
+  553  git remote add origin https://github.com/Alem7u7/20230605-AlejandroSoto.git
+  554  touch comandos.txt main.js index.html
+  555  git status
+  556  git add .
+  557  git commit -m "commit 01 de alejandroSoto"
+  558  git push origin main
+  559  git branch feature01
+  560  git branch
+  561  git checkout feature01
+  562  mkdir Terminal Hardware
+  563  ls
+  564  cd Hardware/
+  565  touch resumen.txt
+  566  ls
+  567  cd ..
+  568  cd Terminal/
+  569  touch resumen.txt
+  570  ls
+  571  cd ..
+  572  git status
+  573  git add .
+  574  git commit -m "commit 02 de alejandroSoto"
+  575  git push origin feature01
+  576  git branch feature02
+  577  git branch
+  578  git checkout feature02
+  579  cd Terminal/
+  580  nano resumen.txt
+  581  cd ..
+  582  cd Hardware/
+  583  nano resumen.txt
+  584  cd ..
+  585  git status
+  586  git add .
+  587  git commit -m "commit 03 de alejandroSoto"
+  588  git push origin feature02
+  589  git checkout main
+  590  ls
+  591  mv comandos.txt comandosUtilizados.txt
+  592  ls
+  593  history
